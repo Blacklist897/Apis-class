@@ -3772,7 +3772,6 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/generic,
-/obj/item/cigbutt,
 /turf/open/floor/plasteel/dark,
 /area/ship/construction)
 "Hl" = (
