@@ -1,0 +1,50 @@
+{
+	"map_name": "Apis-Class Engineering Platform",
+	"prefix": "ISV",
+	"namelists": [
+		"GENERAL",
+		"SPACE",
+		"NATURAL"
+	],
+	"map_short_name": "Apis-class",
+	"description": "The Apis class is Horizons first venture into shipbuilding. Retrofitted from secondhand shetland class hulls, the Apis is expected to become the backbone of Horizons human auxiliarys. This prototype has been converted for long range operations outside of a fleet ",
+	"tags": [
+		"Generalist",
+		"Engineering"
+	],
+	"map_path": "_maps/shuttles/inderpendant/horizon_apis.dmm",
+	"map_id": "horizon_apis",
+	"job_slots": {
+		"Primary Uplink": {
+			"outfit": "/datum/outfit/job/independent/captain/cheap",
+			"officer": true,
+			"slots": 1
+		},
+		"Backup Uplink": {
+			"outfit": "/datum/outfit/job/independent/hop",
+			"officer": true,
+			"slots": 1
+		},
+		"Medical Doctor": {
+			"outfit": "/datum/outfit/job/independent/doctor",
+			"slots": 1
+		},
+		"Ship's Engineer": {
+			"outfit": "/datum/outfit/job/independent/engineer",
+			"slots": 2
+		},
+		"Asteroid Miner": {
+			"outfit": "/datum/outfit/job/independent/miner/hazard",
+			"slots": 1
+		},
+		"Security Detail": {
+			"outfit": "/datum/outfit/job/independent/security/western",
+			"slots": 1
+		},
+		"Deckhand": {
+			"outfit": "/datum/outfit/job/independent/assistant",
+			"slots": 3
+		}
+	},
+	"enabled": true
+}
