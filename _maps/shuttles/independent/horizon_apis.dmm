@@ -2676,8 +2676,8 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
 	},
-/obj/item/kirbyplants/fullysynthetic,
 /obj/machinery/airalarm/directional/north,
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/port)
 "xu" = (
