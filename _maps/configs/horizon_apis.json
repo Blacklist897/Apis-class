@@ -1,4 +1,6 @@
 {
+
+	"$schema": "https://raw.githubusercontent.com/constellado/Pentest/master/_maps/ship_config_schema.json",
 	"map_name": "Apis-Class Engineering Platform",
 	"prefix": "ISV",
 	"namelists": [
