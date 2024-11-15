@@ -82,7 +82,7 @@
 "aR" = (
 /obj/effect/turf_decal/corner/opaque/neutral/half,
 /obj/structure/table/chem,
-/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/clothing/suit/space/hardsuit/clip_patroller/horizon_prototype,
 /turf/open/floor/plasteel/dark,
 /area/ship/construction)
 "aS" = (
@@ -1459,7 +1459,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
 "nm" = (
-/obj/structure/statue/sandstone/venus,
+/obj/structure/statue/sandstone/venus{
+	anchored = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/construction)
 "nt" = (
@@ -3114,17 +3116,16 @@
 /obj/item/clothing/under/rank/command/captain/suit,
 /obj/item/clothing/under/rank/command/captain/skirt,
 /obj/item/storage/backpack/captain,
-/obj/item/clothing/shoes/sneakers/brown,
 /obj/item/clothing/glasses/hud/health/sunglasses,
-/obj/item/gun/energy/e_gun/rdgun{
-	manufacturer = "A Inverted red Pyramid";
-	name = "Horizon PDW"
-	},
-/obj/item/stock_parts/cell/gun,
-/obj/item/stock_parts/cell/gun,
 /obj/item/clothing/suit/armor/hos/inteq{
-	name = "horizon battle coat"
+	name = "Horizon battle coat"
 	},
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/under/syndicate/inteq/honorable{
+	name = "commanders turtleneck";
+	desc = "a midnight black turtleneck, it makes you want to tent your fingers."
+	},
+/obj/item/gun/energy/e_gun/hos/brazil,
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
 "AG" = (
@@ -4861,14 +4862,24 @@
 	populate = 0;
 	req_access = null;
 	req_access_txt = "1";
-	req_ship_access = 1
+	req_ship_access = 1;
+	name = "armory gun locker"
 	},
 /obj/effect/turf_decal/box,
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/gun/energy/e_gun/smg,
-/obj/item/stock_parts/cell/gun,
-/obj/item/stock_parts/cell/gun,
+/obj/item/ammo_box/magazine/gauss,
+/obj/item/ammo_box/magazine/gauss,
+/obj/item/ammo_box/magazine/gauss,
+/obj/item/ammo_box/magazine/gauss,
+/obj/item/gun/ballistic/automatic/powered/gauss{
+	name = "horizon prototype gauss rifle";
+	manufacturer = "a red pyramid "
+	},
+/obj/item/gun/ballistic/automatic/powered/gauss{
+	name = "horizon prototype gauss rifle";
+	manufacturer = "a red pyramid "
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "QR" = (
@@ -5326,7 +5337,9 @@
 /obj/effect/turf_decal/corner/opaque/neutral/three_quarters{
 	dir = 4
 	},
-/obj/structure/filingcabinet/double/grey,
+/obj/machinery/modular_computer/console/preset/id{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
 "Vp" = (
@@ -5780,7 +5793,7 @@
 /obj/item/ammo_box/magazine/m45,
 /obj/item/ammo_box/magazine/m45,
 /obj/item/clothing/suit/armor/hos/inteq{
-	name = "horizon battle coat"
+	name = "Horizon battle coat"
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)

@@ -10,6 +10,7 @@
 	],
 	"map_short_name": "Apis-class",
 	"description": "The Apis class is Horizons first venture into shipbuilding. Retrofitted from secondhand shetland class hulls, the Apis is expected to become the backbone of Horizons human auxiliarys. This prototype has been converted for long range operations outside of a fleet ",
+        "limit": 1,
 	"tags": [
 		"Generalist",
 		"Engineering"
