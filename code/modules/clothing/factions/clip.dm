@@ -203,7 +203,6 @@
 
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 20,"energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75)
 
-
 /obj/item/clothing/suit/space/hardsuit/clip_patroller/horizon_prototype
 	name = "\improper X-03 'Dagonet' Hardsuit"
 	desc = "A Horizon produced prototype Hardsuit. Adapted from a rejected Nanotrasen design."
