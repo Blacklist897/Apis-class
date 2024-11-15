@@ -12,7 +12,7 @@
 		"Generalist",
 		"Engineering"
 	],
-	"map_path": "_maps/shuttles/inderpendant/horizon_apis.dmm",
+	"map_path": "_maps/shuttles/independent/horizon_apis.dmm",
 	"map_id": "horizon_apis",
 	"job_slots": {
 		"Primary Uplink": {
@@ -48,3 +48,4 @@
 	},
 	"enabled": true
 }
+
