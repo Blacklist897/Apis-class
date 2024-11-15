@@ -4432,9 +4432,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "MS" = (
-/obj/structure/bed,
 /obj/structure/curtain/bounty,
-/obj/item/bedsheet/dorms,
+/obj/effect/spawner/bunk_bed,
 /turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "MT" = (
@@ -4460,10 +4459,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/cargo)
 "Ni" = (
-/obj/structure/bed,
 /obj/structure/curtain/bounty,
-/obj/item/bedsheet/dorms,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/bunk_bed,
 /turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "Nl" = (
@@ -4546,12 +4544,11 @@
 /turf/closed/wall,
 /area/ship/maintenance/starboard)
 "Ok" = (
-/obj/structure/bed,
 /obj/structure/curtain/bounty,
-/obj/item/bedsheet/dorms,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
+/obj/effect/spawner/bunk_bed,
 /turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "Om" = (
