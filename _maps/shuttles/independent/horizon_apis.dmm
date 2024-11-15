@@ -38,7 +38,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/dark/visible/layer1,
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "ao" = (
 /turf/closed/wall/r_wall,
 /area/ship/crew/dorm)
@@ -107,7 +107,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/catwalk/over/plated_catwalk/white,
 /turf/open/floor/plating,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "bc" = (
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 4
@@ -536,7 +536,7 @@
 /obj/machinery/light/small/directional/east,
 /obj/machinery/atmospherics/pipe/simple/dark/visible/layer1,
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "eZ" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
 	dir = 4
@@ -741,7 +741,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "gt" = (
 /obj/machinery/light/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -862,7 +862,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "hC" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -889,7 +889,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "hO" = (
 /obj/structure/catwalk/over/plated_catwalk/white,
 /obj/structure/cable{
@@ -1085,7 +1085,7 @@
 	req_access_txt = "10"
 	},
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "jB" = (
 /obj/effect/turf_decal/corner/opaque/bottlegreen/full,
 /obj/machinery/firealarm/directional/west,
@@ -1388,7 +1388,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/white,
 /turf/open/floor/plating,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "mH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
@@ -1440,7 +1440,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/white,
 /turf/open/floor/plating,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "mZ" = (
 /obj/structure/closet/emcloset,
 /obj/effect/turf_decal/corner/opaque/neutral/half,
@@ -2356,7 +2356,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/dark/visible/layer1,
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "uM" = (
 /obj/machinery/advanced_airlock_controller{
 	pixel_x = -25
@@ -2477,7 +2477,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/dark/visible/layer1,
 /turf/open/floor/plating,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "vT" = (
 /obj/structure/sink{
 	dir = 8;
@@ -2502,7 +2502,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "we" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/turf_decal/industrial/warning/fulltile,
@@ -3741,7 +3741,7 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "GZ" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -3967,7 +3967,7 @@
 /obj/structure/catwalk/over/plated_catwalk/white,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plating,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "Jb" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 1
@@ -4033,7 +4033,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "JQ" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel/dark,
@@ -4613,7 +4613,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "OT" = (
 /obj/structure/cable{
 	icon_state = "4-9"
@@ -5288,7 +5288,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/white,
 /turf/open/floor/plating,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "UJ" = (
 /turf/open/floor/plasteel/dark,
 /area/ship/cargo)
@@ -5556,7 +5556,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/dark/visible/layer1,
 /turf/open/floor/plasteel/white,
-/area/ship/hallway/aft)
+/area/ship/engineering/electrical)
 "Xi" = (
 /obj/structure/chair/office/purple,
 /turf/open/floor/plasteel/white,
