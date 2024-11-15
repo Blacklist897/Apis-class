@@ -169,6 +169,7 @@
 /area/ship/hallway/fore)
 "bD" = (
 /obj/machinery/firealarm/directional/east,
+/obj/machinery/rnd/server,
 /turf/open/floor/plasteel/white,
 /area/ship/construction)
 "bM" = (
@@ -2686,7 +2687,7 @@
 	pixel_x = 20;
 	pixel_y = 5
 	},
-/obj/item/kirbyplants/random,
+/obj/structure/fluff/hedge,
 /turf/open/floor/plasteel/white,
 /area/ship/construction)
 "xx" = (
@@ -5101,7 +5102,7 @@
 /area/ship/bridge)
 "SR" = (
 /turf/closed/wall/r_wall/yesdiag,
-/area/ship/crew/canteen)
+/area/ship/construction)
 "Ta" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/oxygen_input{
 	dir = 1
