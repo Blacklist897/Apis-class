@@ -361,7 +361,6 @@
 	pixel_y = 10
 	},
 /turf/open/floor/wood/walnut,
-/turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "di" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible/layer5,
@@ -2711,7 +2710,6 @@
 /obj/effect/turf_decal/corner/opaque/neutral/half,
 /obj/structure/table/chem,
 /obj/item/hemostat/supermatter,
-/obj/structure/table/chem,
 /obj/item/scalpel/supermatter{
 	pixel_y = 15
 	},
@@ -4132,6 +4130,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
+/obj/item/toy/plush/beeplushie{
+	name = "Willow"
+	},
 /turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "KJ" = (
@@ -4809,7 +4810,6 @@
 /obj/item/clothing/shoes/sneakers/black,
 /obj/item/clothing/shoes/sneakers/black,
 /obj/item/clothing/shoes/sneakers/black,
-/turf/open/floor/wood/walnut,
 /turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "Ql" = (
