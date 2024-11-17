@@ -2,20 +2,21 @@
 
 	"$schema": "https://raw.githubusercontent.com/constellado/Pentest/master/_maps/ship_config_schema.json",
 	"map_name": "Apis-Class Engineering Platform",
+        "map_short_name": "Apis-class",
+        "map_path": "_maps/shuttles/independent/horizon_apis.dmm",
 	"prefix": "ISV",
+        "description": "The Apis class is Horizons first venture into shipbuilding. Retrofitted from secondhand shetland class hulls, the Apis is expected to become the backbone of Horizons human auxiliarys. This prototype has been converted for long range operations outside of a fleet ",
+        "limit": 1,
+        "tags": [
+		"Generalist",
+		"Engineering"
+
+        [,
 	"namelists": [
 		"GENERAL",
 		"SPACE",
 		"NATURAL"
-	],
-	"map_short_name": "Apis-class",
-	"description": "The Apis class is Horizons first venture into shipbuilding. Retrofitted from secondhand shetland class hulls, the Apis is expected to become the backbone of Horizons human auxiliarys. This prototype has been converted for long range operations outside of a fleet ",
-        "limit": 1,
-	"tags": [
-		"Generalist",
-		"Engineering"
-	],
-	"map_path": "_maps/shuttles/independent/horizon_apis.dmm",
+	],	
 	"map_id": "horizon_apis",
 	"job_slots": {
 		"Primary Uplink": {
@@ -49,6 +50,12 @@
 			"slots": 3
 		}
 	},
-	"enabled": true
+        "limit": 1,
+	"starting_funds": 2000,
+	"enabled": true,
+	"space_spawn": false,
+	"architect": "Blacklist897/Alexander Moore",
+	"contributors": [
+		"Secc - Help setting up git, Ossa - Helped fixing the mistakes I made, Constellado - strongdmm help"
+	]
 }
-
