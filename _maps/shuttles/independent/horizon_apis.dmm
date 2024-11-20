@@ -911,9 +911,6 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible/layer5{
 	dir = 5
 	},
-/obj/structure/cable/yellow{
-	icon_state = "4-10"
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
@@ -925,6 +922,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/dark/visible{
 	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
@@ -1288,11 +1288,16 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
 "lu" = (
 /obj/structure/cable/yellow{
-	icon_state = "1-8"
+	icon_state = "1-8";
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "5-6"
@@ -1646,7 +1651,6 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/engine)
 "oY" = (
@@ -2089,6 +2093,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-6"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
@@ -2629,9 +2636,6 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
 "wW" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-6"
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
@@ -2640,6 +2644,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/dark/visible{
 	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
@@ -2798,7 +2809,8 @@
 /area/ship/hallway/port)
 "yz" = (
 /obj/structure/cable/yellow{
-	icon_state = "1-8"
+	icon_state = "1-8";
+	dir = 4
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -3051,12 +3063,6 @@
 /obj/effect/turf_decal/number/zero{
 	dir = 8
 	},
-/obj/structure/cable/yellow{
-	icon_state = "5-9"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "5-10"
-	},
 /obj/machinery/atmospherics/pipe/layer_manifold/visible{
 	dir = 4
 	},
@@ -3087,6 +3093,9 @@
 /area/ship/construction)
 "Ax" = (
 /obj/structure/table/wood,
+/obj/item/toy/plush/beeplushie{
+	name = "Willow"
+	},
 /turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "Az" = (
@@ -3123,7 +3132,7 @@
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/under/syndicate/inteq/honorable{
 	name = "commanders turtleneck";
-	desc = "a midnight black turtleneck, it makes you want to tent your fingers."
+	desc = "A midnight black turtleneck, it makes you want to tent your fingers."
 	},
 /obj/item/gun/energy/e_gun/hos/brazil,
 /turf/open/floor/plasteel/white,
@@ -4131,9 +4140,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
-/obj/item/toy/plush/beeplushie{
-	name = "Willow"
-	},
 /turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "KJ" = (
@@ -4874,11 +4880,13 @@
 /obj/item/ammo_box/magazine/gauss,
 /obj/item/gun/ballistic/automatic/powered/gauss{
 	name = "horizon prototype gauss rifle";
-	manufacturer = "a red pyramid "
+	manufacturer = "Horizon RnD team Delta ";
+	desc = "An experimental rifle with a high capacity. Useful for putting down crowds. Chambered in ferromagnetic pellets."
 	},
 /obj/item/gun/ballistic/automatic/powered/gauss{
 	name = "horizon prototype gauss rifle";
-	manufacturer = "a red pyramid "
+	manufacturer = "Horizon RnD team Delta ";
+	desc = "An experimental rifle with a high capacity. Useful for putting down crowds. Chambered in ferromagnetic pellets."
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
@@ -5416,11 +5424,11 @@
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
 "VV" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-5"
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
