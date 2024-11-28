@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/PentestSS13/Pentest/master/_maps/ship_config_schema.json",
-	"map_name": "Cheyenne Class Flotilla",
+	"map_name": "Cheyenne-class Flotilla",
 	"map_short_name": "Cheyenne-class",
 	"map_path": "_maps/shuttles/nanotrasen/nanotrasen_cheyenne.dmm",
 	"prefix": "NTSV",
@@ -72,8 +72,15 @@
 		"Bartender": {
 			"outfit": "/datum/outfit/job/bartender",
 			"slots": 1
+		},
+		"Clown":{
+			"outfit": "/datum/outfit/job/clown",
+			"slots": 1
+		},
+		"Mime":{
+			"outfit": "/datum/outfit/job/mime",
+			"slots": 1
 		}
-
 	},
 	"limit": 1,
 	"starting_funds": 2000,
