@@ -54,6 +54,8 @@
 /obj/item/gun/energy/laser/captain/brazil
 	icon_state = "capgun_brazil"
 	item_state = "caplaser"
+	lefthand_file = 'icons/obj/guns/manufacturer/nanotrasen_sharplite/lefthand.dmi'
+	righthand_file = 'icons/obj/guns/manufacturer/nanotrasen_sharplite/righthand.dmi'
 	desc = "This is the SL X-00, an antique laser gun, out of production for decades and well beyond anyone's capacity to recreate. It seems all the high quality materials it was once made of are now scratched up and torn. The nuclear power cell has been removed, and the gun will no longer automatically recharge."
 	selfcharge = FALSE
 

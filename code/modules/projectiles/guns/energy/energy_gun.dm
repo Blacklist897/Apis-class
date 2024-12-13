@@ -81,13 +81,17 @@
 	name = "modified antique laser gun"
 	desc = "It's somehow modified to have more firemodes."
 	icon_state = "capgun_brazil_hos"
-	item_state = "hoslaser"
+	item_state = "capgun_brazil"
+	lefthand_file = 'icons/obj/guns/manufacturer/nanotrasen_sharplite/lefthand.dmi'
+	righthand_file = 'icons/obj/guns/manufacturer/nanotrasen_sharplite/righthand.dmi'
 	manufacturer = MANUFACTURER_SHARPLITE
 
 /obj/item/gun/energy/e_gun/hos/brazil/true
 	desc = "This genuine antique laser gun, modified with an experimental suite of alternative firing modes based on the X-01 MultiPhase Energy Gun, is now truly one of the finest weapons in the frontier."
 	icon_state = "capgun_hos"
-	item_state = "hoslaser"
+	item_state = "caplaser"	
+	lefthand_file = 'icons/obj/guns/manufacturer/nanotrasen_sharplite/lefthand.dmi'
+	righthand_file = 'icons/obj/guns/manufacturer/nanotrasen_sharplite/righthand.dmi'
 	selfcharge = 1
 	manufacturer = MANUFACTURER_SHARPLITE
 
