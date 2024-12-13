@@ -89,7 +89,7 @@
 /obj/item/gun/energy/e_gun/hos/brazil/true
 	desc = "This genuine antique laser gun, modified with an experimental suite of alternative firing modes based on the X-01 MultiPhase Energy Gun, is now truly one of the finest weapons in the frontier."
 	icon_state = "capgun_hos"
-	item_state = "caplaser"	
+	item_state = "caplaser"
 	lefthand_file = 'icons/obj/guns/manufacturer/nanotrasen_sharplite/lefthand.dmi'
 	righthand_file = 'icons/obj/guns/manufacturer/nanotrasen_sharplite/righthand.dmi'
 	selfcharge = 1
